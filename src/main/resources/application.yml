@@ -1,0 +1,7 @@
+
+spring:
+#  设置缓存类型和缓存配置文件
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:/ehcache.xml
